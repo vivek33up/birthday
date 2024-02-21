@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is today your birthday?</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .button {
+        display: inline-block;
+        background-color: #ffc107;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 5px;
+        transition: background-color 0.3s;
+        text-transform: uppercase;
+      }
+      .button:hover {
+        background-color: #ffd54f;
+      }
+      .emoji {
+        font-size: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="emoji">🤨</h1>
+      <h1>Is today your birthday?</h1>
+      <button class="button" onclick="location.href='birthday-card.html';">
+        Yes
+      </button>
+      <button class="button" onclick="alert('Dont be a bitch')">No</button>
+    </div>
+  </body>
+</html>
